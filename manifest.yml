@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: triall-app
+  host: triall-app
+  disk_quota: 1024M
+  services:
+  - triall-app-cloudantNoSQLDB
+  - Internet of Things Platform-at
